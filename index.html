@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="main">
+      <div class="form_div">
+        <form class="form_input" id="form">
+            <div class="form_input input_div">
+                <label for="name" class="form_input form_input_label_name"
+            >Course</label
+          >
+          <input type="text" class="form_input form_input--name" />
+            </div>
+            <div class="form_input input_div">
+                <label for="desc" class="form_input form_input_label_name">
+                    Description
+                  </label>
+                 
+                  <textarea class="form_input form_input--desc" name="" id="" cols="20" rows="10"></textarea>
+            </div>
+            <div class="form_input input_div">
+                <button class="btnAddInput">add</button>
+            </div>
+         
+          
+        </form>
+      </div>
+      <div class="movement_type movement_display--container">
+        <div class="movement_type movement_display--main" id="course-card-container">
+          <!-- cards to be added -->
+          <!-- <div class="movement_type movement_row--main">
+            <div class="movement_row movement_row--name">Course</div>
+            <div class="movement_row movement_row--desc">
+              <p>descprition</p>
+            </div>
+            <div>
+              <button class="movement_row movement_row--btn">Details</button>
+              <button class="movement_row movement_row--btna" onclick="apply()">Apply</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
